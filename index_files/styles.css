@@ -7,12 +7,12 @@ body, td, th {
 
 @font-face {
     font-family: 'cooper_blackregular';
-    src: url(./coopbl-webfont.eot);
-    src: url(./coopbl-webfont.eot?#iefix) format('embedded-opentype'),
-         url(./coopbl-webfont.woff2) format('woff2'),
-         url(./coopbl-webfont.woff) format('woff'),
-         url(./coopbl-webfont.ttf) format('truetype'),
-         url(./coopbl-webfont.svg#cooper_blackregular) format('svg');
+    src: url('coopbl-webfont.eot');
+    src: url('coopbl-webfont.eot?#iefix') format('embedded-opentype'),
+         url('coopbl-webfont.woff2') format('woff2'),
+         url('coopbl-webfont.woff') format('woff'),
+         url('coopbl-webfont.ttf') format('truetype'),
+         url('coopbl-webfont.svg#cooper_blackregular') format('svg');
 }
 
 :root {
