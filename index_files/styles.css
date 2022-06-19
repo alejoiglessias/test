@@ -6,13 +6,16 @@ body, td, th {
 }
 
 @font-face {
-    font-family: 'cooper_blackregular';
-    src: url('coopbl-webfont.eot');
-    src: url('coopbl-webfont.eot?#iefix') format('embedded-opentype'),
-         url('coopbl-webfont.woff2') format('woff2'),
-         url('coopbl-webfont.woff') format('woff'),
-         url('coopbl-webfont.ttf') format('truetype'),
-         url('coopbl-webfont.svg#cooper_blackregular') format('svg');
+    font-family: 'Cooper Std';
+    src: url('CooperBlackStd.eot');
+    src: local('Cooper Std Black'), local('CooperBlackStd'),
+        url('CooperBlackStd.eot?#iefix') format('embedded-opentype'),
+        url('CooperBlackStd.woff2') format('woff2'),
+        url('CooperBlackStd.woff') format('woff'),
+        url('CooperBlackStd.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
 }
 
 :root {
